@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Integrated Browser",
+            "request": "launch",
+            "type": "editor-browser",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "bun",
+            "internalConsoleOptions": "neverOpen",
+            "request": "launch",
+            "name": "Run File",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "noDebug": true,
+            "watchMode": false
+        }
+    ]
+}

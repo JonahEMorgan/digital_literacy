@@ -1,0 +1,9 @@
+#**/*
+#!/.vscode/*.json
+#!bun.lock
+#!capacitor.config.ts
+#!index.ts
+#!package.json
+#!README.md
+#!tsconfig.json
+node_modules/
