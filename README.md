@@ -4,8 +4,11 @@
 # Digital Literacy App
 
 > [!IMPORTANT]
-> Install reccomended VS Code extensions before contributing
-> They are needed for Bun integration and viewing the kanban board
+> Install reccomended VS Code extensions before contributing.
+> They are needed for Bun integration and viewing the kanban board.
+
+> [!NOTE]
+> All device testing has been done on *Medium Phone* with *Intel x86_64 Atom System Image*
 
 To install dependencies:
 

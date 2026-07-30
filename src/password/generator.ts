@@ -1,4 +1,4 @@
-import { writeFileSync } from "fs";
+/*import { writeFileSync } from "fs";
 
 const WORDS = [
     "river", "mountain", "forest", "planet", "coffee", "orange", "rocket",
@@ -136,4 +136,4 @@ writeFileSync(
     "utf8"
 );
 
-console.log(`Generated ${randomized.length} passwords.`);
+console.log(`Generated ${randomized.length} passwords.`);*/

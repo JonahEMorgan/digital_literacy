@@ -1,21 +1,22 @@
+import { useTheme } from "#components/theme-provider";
 import { Button } from "#components/ui/button"
+import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "#components/ui/card";
 
-export function App() {
+export default function App() {
+    const { theme, setTheme } = useTheme();
     return (
-        <div className="flex min-h-svh p-6">
-            <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-                <div>
-                    <h1 className="font-medium">Project ready!</h1>
-                    <p>You may now add components and start building.</p>
-                    <p>We&apos;ve already added the button component for you.</p>
-                    <Button className="mt-2">Button</Button>
-                </div>
-                <div className="font-mono text-xs text-muted-foreground">
-                    (Press <kbd>d</kbd> to toggle dark mode)
-                </div>
-            </div>
+        <div className="grid min-h-screen place-items-center">
+            <Card className="w-full max-w-sm">
+                <CardHeader>
+                    <CardTitle>Ditigal Literacy App</CardTitle>
+                </CardHeader>
+                <CardContent>
+                    <p>Nothing to show just yet.</p>
+                </CardContent>
+                <CardFooter className="flex justify-center">
+                    <Button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>Toggle Theme</Button>
+                </CardFooter>
+            </Card>
         </div>
     )
 }
-
-export default App
